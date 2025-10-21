@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="KafkaDemo" />
+        <module name="springbootv3" />
+        <module name="rocketmqDemo" />
+        <module name="springbootv2" />
+        <module name="springbootv1" />
+        <module name="fluxDemo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="KafkaDemo" options="-parameters" />
+      <module name="fluxDemo" options="-parameters" />
+      <module name="rocketmqDemo" options="-parameters" />
+      <module name="springbootv2" options="-parameters" />
+      <module name="springbootv3" options="-parameters" />
+    </option>
+  </component>
+</project>
